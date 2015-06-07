@@ -1,0 +1,28 @@
+Main page a slideshow with links to different galleries, Engagements | Weddings | Family Portraits | Children | Fashion Photography | Your Event ( this is the gallery I want that requires a password to be able to see them
+
+We can also link to social media right
+
+
+I want to be able to add like events that I've done,  add a few pics plus write something about how the event went
+
+
+http://www.aphotographerinnewjersey.com/home-page/
+
+
+REFERENCE FOR CHANGE ON SCROLL COLOR:
+http://jsfiddle.net/dylanholmes222/LaL3v/1/
+
+SCROLLING NAVBAR:
+http://ironsummitmedia.github.io/startbootstrap-scrolling-nav/
+
+CONTACT FORM:
+http://www.onextrapixel.com/examples/html5-contact-form/
+
+ACCORDIAN MENU:
+http://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=accordion
+
+LOCALHOST LIVE PREVIEW:
+https://github.com/adobe/brackets/wiki/Troubleshooting#livedev
+
+SLIDESHOW: 
+http://www.jerryghionisphotography.com/wedding-gallery

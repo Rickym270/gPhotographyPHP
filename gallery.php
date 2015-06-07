@@ -55,16 +55,15 @@ include('bin/header.php');
           <tr>
             <td>
               <div class="row">
-<!--
                 <?php
-                  //$path = "imgs/{$gallery['caption']}/*.*";
-                  //$files = glob($path);
-                  //for ($i = 1; $i<count($files); $i++){ 
-                    //$num = $files[$i];
+                  $path = "imgs/{$gallery['caption']}/*.*";
+                  $files = glob($path);
+                  for ($i = 1; $i<count($files); $i++){ 
+                    $num = $files[$i];
                 ?><div class="col-sm-6 col-md-4">
                     <div id="effect-5" class="effects clearfix">
                       <div class="thumbnail">
-                        <?php //echo '<img src="' . $num . '" alt="">'?>
+                        <?php echo '<img src="' . $num . '" alt="">'?>
                         <div class="overlay">
                           <a href="gallery.php?id=" class="expand">+</a>
                           <a class="close-overlay hidden">x</a>
@@ -72,8 +71,7 @@ include('bin/header.php');
                       </div>
                     </div>
                   </div>
-                <?php //} ?>
--->
+                <?php } ?>
               </div><!--/.Row-->
             </td>
           </tr>
@@ -143,5 +141,3 @@ include('bin/header.php');
 
   </body>
 </html>
-
-<?php include('bin/footer.php'); ?>

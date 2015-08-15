@@ -24,6 +24,7 @@
     <link href="css/carousel.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel = "stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/css/style.css" type="text/css">
   </head>
     
 <!--======================== NAVBAR =========================== -->
@@ -61,7 +62,8 @@
                     <a class="page-scroll" href="#contact">Contact</a>
                   </li>
               </ul>
-                
+<!--                                                               LOGIN FUTURE POSSIBLE FEATURE      
+
               <ul class="nav navbar-nav navbar-right" style="right:">
                 <li class = "dropdown"><a href="#SignIn" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sign In<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu" style="width:500px !important;">
@@ -85,20 +87,21 @@
                                 <label>
                                   <input type="checkbox"> Remember me
                                 </label>
-                              </div><!--/.Checkbox-->
-                            </div><!--/.ColSmOffset-->
-                          </div><!--/.FormGroup-->
+                              </div><!-/.Checkbox->
+                            </div><!-/.ColSmOffset->
+                          </div><!-/.FormGroup->
                           <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                               <button type="submit" class="btn btn-default">Sign in</button>
-                            </div><!--/.ColSmOffset-->
-                          </div><!--/.FormGroup-->
-                        </form><!--/.FormHorizontal-->
+                            </div><!-/.ColSmOffset->
+                          </div><!-/.FormGroup->
+                        </form><!-/.FormHorizontal->
                         </a>
-                    </li><!--End Sign IN-->
-                    </ul><!--/.DropDownMenu-->  
-                </li><!--/.Dropdown-->  
+                    </li><!-End Sign IN->
+                    </ul><!-/.DropDownMenu->  
+                </li><!-/.Dropdown->  
               </ul>
+-->
             </div>
           </div>
         </nav>

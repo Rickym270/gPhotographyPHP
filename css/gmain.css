@@ -102,3 +102,13 @@ a.expand {
   -o-border-radius: 30px;
   border-radius: 30px;
 }
+
+#effect-5 .thumbnail .overlay a:hover{
+	height: 30%;
+	width:20%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+}

@@ -26,95 +26,95 @@
   </head>
     <body>
 <!--========================= BODY =============================-->
-        <div id="page-wrap" class="container marketing">
-            <div id="main-content" class="row">
-                 <table class="table table-stripped" id="apple"><!--LOADS TO-->  
-                    <section id="galleries">
-                        <thead>
-                            <tr>
-                                <th><h1>SAMPLE ALBUM</h1></th>
-                            </tr>
-                        </thead><!--/.GALLERIES HEAD-->
-                        <tbody>
-                          <tr>
-                            <td>
-                                
+<div id="page-wrap" class="container marketing">
+    <div id="main-content" class="row">
+         <table class="table table-stripped" id="apple"><!--LOADS TO-->  
+            <section id="galleries">
+                <thead>
+                    <tr>
+                        <th><h1>SAMPLE ALBUM</h1></th>
+                    </tr>
+                </thead><!--/.GALLERIES HEAD-->
+                <tbody>
+                  <tr>
+                    <td>
+                        
 <!--========================== Carousel ========================-->
-                                
-                            <div id="myCarousel" class="carousel slide">
-                              <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                  <img class="first-slide" src="imgs/bluesky.jpg" alt="First slide">
-                                </div>
-                                <div class="item">
-                                  <img class="second-slide" src="imgs/WebCoverPhoto.jpg" alt="Second slide">
-                                </div>
-                                <div class="item">
-                                  <img class="third-slide" src="imgs/Weddingbanner.jpg" alt="Third slide">
-                                </div>
-                              </div>
-                              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                              </a>
-                              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                              </a>
-                            </div><!-- /.carousel --><div id="push"></div>
-                                
+                        
+                    <div id="myCarousel" class="carousel slide">
+                      <div class="carousel-inner" role="listbox" data-interval="false">
+                        <div class="item active">
+                          <img class="first-slide" src="imgs/bluesky.jpg" alt="First slide">
+                        </div>
+                        <div class="item">
+                          <img class="second-slide" src="imgs/WebCoverPhoto.jpg" alt="Second slide">
+                        </div>
+                        <div class="item">
+                          <img class="third-slide" src="imgs/Weddingbanner.jpg" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div><!-- /.carousel --><div id="push"></div>
+                        
 <!--================== Thumbnail Data Slider ===================-->
-                                
-                            <div class="col-sm-4">
-                                <div class="thumbnail">
-                                    <a href="#myCarousel" data-target="#myCarousel" data-slide-to="0">
-                                    <img src="imgs/bluesky.jpg" alt="...">
-                                    </a>
-                                </div><!--/.Thumbnail-->
-                            </div><!--/.col-sm-6 col-md-4--> 
-                            <div class="col-sm-4">
-                                <div class="thumbnail">
-                                    <a href="#myCarousel" data-target="#myCarousel" data-slide-to="1">
-                                    <img src="imgs/WebCoverPhoto.jpg" alt="...">
-                                    </a>
-                                </div><!--/.Thumbnail-->
-                            </div><!--/.col-sm-6 col-md-4-->
-                            <div class="col-sm-4">
-                                <div class="thumbnail">
-                                    <a href="#myCarousel" data-target="#myCarousel" data-slide-to="2">
-                                    <img src="imgs/Weddingbanner.jpg" alt="...">
-                                    </a>
-                                </div><!--/.Thumbnail-->
-                            </div><!--/.col-sm-6 col-md-4-->
-                            <div class="col-sm-4">
-                                <div class="thumbnail">
-                                    <a href="#myCarousel" data-target="#myCarousel" data-slide-to="3">
-                                    <img src="imgs/bluesky.jpg" alt="...">
-                                    </a>
-                                </div><!--/.Thumbnail-->
-                            </div><!--/.col-sm-6 col-md-4-->
-                            <div class="col-sm-4">
-                                <div class="thumbnail">
-                                    <a href="#myCarousel" data-target="#myCarousel" data-slide-to="4">
-                                    <img src="imgs/bluesky.jpg" alt="...">
-                                    </a>
-                                </div><!--/.Thumbnail-->
-                            </div><!--/.col-sm-6 col-md-4-->
-                            <div class="col-sm-4">
-                                <div class="thumbnail">
-                                    <a href="#myCarousel" data-target="#myCarousel" data-slide-to="5">
-                                    <img src="imgs/bluesky.jpg" alt="...">
-                                    </a>
-                                </div><!--/.Thumbnail-->
-                            </div><!--/.col-sm-6 col-md-4-->
-                              
-                            </td>
-                          </tr>
-                        </tbody><!--/.GALLERIES BODY-->
-                  </section>
-                </table>
-            </div>
-        </div>
+                        
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#myCarousel" data-target="#myCarousel" data-slide-to="0">
+                            <img src="imgs/bluesky.jpg" alt="...">
+                            </a>
+                        </div><!--/.Thumbnail-->
+                    </div><!--/.col-sm-6 col-md-4--> 
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#myCarousel" data-target="#myCarousel" data-slide-to="1">
+                            <img src="imgs/WebCoverPhoto.jpg" alt="...">
+                            </a>
+                        </div><!--/.Thumbnail-->
+                    </div><!--/.col-sm-6 col-md-4-->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#myCarousel" data-target="#myCarousel" data-slide-to="2">
+                            <img src="imgs/Weddingbanner.jpg" alt="...">
+                            </a>
+                        </div><!--/.Thumbnail-->
+                    </div><!--/.col-sm-6 col-md-4-->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#myCarousel" data-target="#myCarousel" data-slide-to="3">
+                            <img src="imgs/bluesky.jpg" alt="...">
+                            </a>
+                        </div><!--/.Thumbnail-->
+                    </div><!--/.col-sm-6 col-md-4-->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#myCarousel" data-target="#myCarousel" data-slide-to="4">
+                            <img src="imgs/bluesky.jpg" alt="...">
+                            </a>
+                        </div><!--/.Thumbnail-->
+                    </div><!--/.col-sm-6 col-md-4-->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#myCarousel" data-target="#myCarousel" data-slide-to="5">
+                            <img src="imgs/bluesky.jpg" alt="...">
+                            </a>
+                        </div><!--/.Thumbnail-->
+                    </div><!--/.col-sm-6 col-md-4-->
+                      
+                    </td>
+                  </tr>
+                </tbody><!--/.GALLERIES BODY-->
+          </section>
+        </table>
+    </div>
+</div>
 
 <!-- ===============Bootstrap core JavaScript================== -->
 <!-- Placed at the end of the document so the pages load faster -->

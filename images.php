@@ -22,7 +22,7 @@ $galleries[03] = array(
 $galleries[04] = array(
   "caption" => "Halls",
   "description" => "Photos of Halls",
-  "img" => "imgs/Hall/JGP_6580.JPG"
+  "img" => "imgs/Halls/JGP_6580.JPG"
   );
 
 $galleries[05] = array(

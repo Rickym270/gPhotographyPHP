@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $sectionf= "footer"; ?>
 <html lang="no-js">
   <head>
 <!--https://wrapbootstrap.com/tag/photography-->
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1s">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../../favicon.ico">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="/css/style.css" type="text/css">
     <title>Gomez Photography: <?php echo $section ?></title>
 
 <!--================= Bootstrap core CSS =======================-->
@@ -25,7 +26,7 @@
     <link href="css/main.css" rel = "stylesheet" type="text/css">
     <link href="css/imain.css" rel="stylesheet" type="text/css">
     <link href="css/gmain.css" rel= "stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <?php if ($imageSection == "imageSection"){
       echo '<link href="css/imageSection.css" rel= "stylesheet" type="text/css">';
       } ?>
@@ -44,7 +45,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                
                 <a class="navbar-brand" href="index.php"><?php if ($section == "Blog"){echo "Gomez Blog";}else{echo"Gomez Photography";} ?></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">

@@ -1,27 +1,4 @@
-<?php
-  if ($_SERVER["REQUEST METHOD"] == "POST"){
-    $name = trim($_POST["name"]);
-    $email = trim($_POST["email"]);
-    $message = trim($_POST["message"]);
-    $human = trim(intval($_POST["human"]));
-
-    //Validation
-    foreach($_POST as $value){
-      if(stripos($value, 'Content-Type:') !== FALSE){
-        exit();
-      }
-    }
-
-    if ($name == "" || $email == "" || $message = ""){
-        echo "ERROR";
-        exit;
-    }
-
-    header("Location: index.php?status=thanks");
-    exit;
-
-  }
-?><?php 
+<?php 
 
 include ('images.php');
 
@@ -33,23 +10,40 @@ include ('bin/Mainheader.php');
 
 ?>
 
+<!--====================== Page Header =========================-->
+<!-- Set your background image for this header on the line below. -->
+<header class="intro-header" id="indexHeader" style="background-image: url('imgs/WebCoverPhoto.jpg')">
+  <div class="container" style="padding-top:350px">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading" style="color: white;">
+          <h1><center><strong>Gomez Photography</strong></center></h1>
+          <hr class="small">
+          <span class="subheading"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
 <!--====================== CAROUSEL ============================-->
-      
+      <!--
     <section id="home">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">             
-            <img src="imgs/WebCoverPhoto.jpg" alt="...">
+            <img class="first-slide" src="imgs/WebCoverPhoto.jpg" alt="...">
           <div class="container">
             <div class="carousel-caption">
               <p><a class="btn btn-lg btn-primary btn-outline page-scroll" href="#contact" role="button">Request A Photoshoot</a></p>
             </div>
           </div>
-        </div><!--originally below last .div-->
+        </div><!-originally below last .div->
       </div>
-    </div><!-- /.carousel -->
+    </div><!- /.carousel ->
     </section>
-      
+      -->
 <!--========================= BODY =============================-->
 <!-- Wrap the rest of the page in another container to center all the content. -->
     <div id = "wrap" class="container marketing">

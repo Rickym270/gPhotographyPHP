@@ -95,10 +95,10 @@ a.expand {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-#effect-5 .thumbnail.hover .overlay {
+#effect-5 .thumbnail .hover .overlay {
   opacity: 1;
 }
-#effect-5 .thumbnail.hover .overlay a.expand {
+#effect-5 .thumbnail .hover .overlay a.expand {
   width: 60px;
   height: 60px;
   -webkit-border-radius: 30px;
